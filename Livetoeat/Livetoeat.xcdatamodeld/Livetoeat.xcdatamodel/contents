@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="19E2265" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Customerdetails" representedClassName="Customerdetails" syncable="YES">
+        <attribute name="couponcode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="coupongeneratedate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="couponpercentage" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="imageprofile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phonnumber" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="orderhistory" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="OrderHistory" inverseName="customerdetails" inverseEntity="OrderHistory" syncable="YES"/>
+    </entity>
+    <entity name="Mealplans" representedClassName="Mealplans" syncable="YES" codeGenerationType="class">
+        <attribute name="calorie" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="descp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="OrderHistory" representedClassName="OrderHistory" syncable="YES">
+        <attribute name="orderdate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ordername" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderprice" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="customerdetails" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Customerdetails" inverseName="orderhistory" inverseEntity="Customerdetails" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Customerdetails" positionX="143.41015625" positionY="-88.66015625" width="128" height="163"/>
+        <element name="Mealplans" positionX="-152.828125" positionY="-164.046875" width="128" height="120"/>
+        <element name="OrderHistory" positionX="-100.296875" positionY="21.7109375" width="128" height="118"/>
+    </elements>
+</model>

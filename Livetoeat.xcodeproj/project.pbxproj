@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		537182A82485A63600E8D84D /* Customerdetails+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537182A62485A63600E8D84D /* Customerdetails+CoreDataClass.swift */; };
+		537182A92485A63600E8D84D /* Customerdetails+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537182A72485A63600E8D84D /* Customerdetails+CoreDataProperties.swift */; };
+		537182AB2485A92400E8D84D /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537182AA2485A92400E8D84D /* SignupViewController.swift */; };
+		537182AD2485AF7B00E8D84D /* MealPlansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537182AC2485AF7B00E8D84D /* MealPlansViewController.swift */; };
+		537182AF2485B03700E8D84D /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537182AE2485B03700E8D84D /* CustomTableViewCell.swift */; };
+		537182B62485B38700E8D84D /* MealPlanmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537182B52485B38700E8D84D /* MealPlanmodel.swift */; };
+		537182B92485BBC900E8D84D /* Mealplandatas.json in Resources */ = {isa = PBXBuildFile; fileRef = 537182B82485BBC900E8D84D /* Mealplandatas.json */; };
+		537182BB2485C02E00E8D84D /* PlaceOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537182BA2485C02E00E8D84D /* PlaceOrderViewController.swift */; };
+		53748A4C24859FB70028FBCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53748A4B24859FB70028FBCF /* AppDelegate.swift */; };
+		53748A4E24859FB70028FBCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53748A4D24859FB70028FBCF /* ViewController.swift */; };
+		53748A5124859FB70028FBCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53748A4F24859FB70028FBCF /* Main.storyboard */; };
+		53748A5424859FB70028FBCF /* Livetoeat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 53748A5224859FB70028FBCF /* Livetoeat.xcdatamodeld */; };
+		53748A5624859FB90028FBCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53748A5524859FB90028FBCF /* Assets.xcassets */; };
+		53748A5924859FB90028FBCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53748A5724859FB90028FBCF /* LaunchScreen.storyboard */; };
+		53748A622485A43F0028FBCF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53748A612485A43F0028FBCF /* LoginViewController.swift */; };
+		5399B5D0248C2CE500AEA7D4 /* PastOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5399B5CF248C2CE500AEA7D4 /* PastOrderViewController.swift */; };
+		5399B5D2248C2E4800AEA7D4 /* CustomOrerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5399B5D1248C2E4800AEA7D4 /* CustomOrerTableViewCell.swift */; };
+		5399B5D4248C341900AEA7D4 /* OrderHisPojo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5399B5D3248C341900AEA7D4 /* OrderHisPojo.swift */; };
+		53C6896C248B2DD800439844 /* OrderHistory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C6896A248B2DD800439844 /* OrderHistory+CoreDataClass.swift */; };
+		53C6896D248B2DD800439844 /* OrderHistory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C6896B248B2DD800439844 /* OrderHistory+CoreDataProperties.swift */; };
+		53C6896F248B32AC00439844 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C6896E248B32AC00439844 /* MapsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		537182A62485A63600E8D84D /* Customerdetails+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Customerdetails+CoreDataClass.swift"; sourceTree = "<group>"; };
+		537182A72485A63600E8D84D /* Customerdetails+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Customerdetails+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		537182AA2485A92400E8D84D /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		537182AC2485AF7B00E8D84D /* MealPlansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPlansViewController.swift; sourceTree = "<group>"; };
+		537182AE2485B03700E8D84D /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		537182B52485B38700E8D84D /* MealPlanmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPlanmodel.swift; sourceTree = "<group>"; };
+		537182B82485BBC900E8D84D /* Mealplandatas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Mealplandatas.json; sourceTree = "<group>"; };
+		537182BA2485C02E00E8D84D /* PlaceOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceOrderViewController.swift; sourceTree = "<group>"; };
+		53748A4824859FB70028FBCF /* Livetoeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Livetoeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53748A4B24859FB70028FBCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53748A4D24859FB70028FBCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53748A5024859FB70028FBCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53748A5324859FB70028FBCF /* Livetoeat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Livetoeat.xcdatamodel; sourceTree = "<group>"; };
+		53748A5524859FB90028FBCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53748A5824859FB90028FBCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53748A5A24859FB90028FBCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53748A612485A43F0028FBCF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5399B5CF248C2CE500AEA7D4 /* PastOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderViewController.swift; sourceTree = "<group>"; };
+		5399B5D1248C2E4800AEA7D4 /* CustomOrerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOrerTableViewCell.swift; sourceTree = "<group>"; };
+		5399B5D3248C341900AEA7D4 /* OrderHisPojo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHisPojo.swift; sourceTree = "<group>"; };
+		53C6896A248B2DD800439844 /* OrderHistory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderHistory+CoreDataClass.swift"; sourceTree = "<group>"; };
+		53C6896B248B2DD800439844 /* OrderHistory+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderHistory+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		53C6896E248B32AC00439844 /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53748A4524859FB70028FBCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53748A3F24859FB70028FBCF = {
+			isa = PBXGroup;
+			children = (
+				53C6896A248B2DD800439844 /* OrderHistory+CoreDataClass.swift */,
+				53C6896B248B2DD800439844 /* OrderHistory+CoreDataProperties.swift */,
+				537182A62485A63600E8D84D /* Customerdetails+CoreDataClass.swift */,
+				537182A72485A63600E8D84D /* Customerdetails+CoreDataProperties.swift */,
+				53748A4A24859FB70028FBCF /* Livetoeat */,
+				53748A4924859FB70028FBCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53748A4924859FB70028FBCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53748A4824859FB70028FBCF /* Livetoeat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53748A4A24859FB70028FBCF /* Livetoeat */ = {
+			isa = PBXGroup;
+			children = (
+				537182B52485B38700E8D84D /* MealPlanmodel.swift */,
+				5399B5D1248C2E4800AEA7D4 /* CustomOrerTableViewCell.swift */,
+				53748A4B24859FB70028FBCF /* AppDelegate.swift */,
+				53748A4D24859FB70028FBCF /* ViewController.swift */,
+				53748A4F24859FB70028FBCF /* Main.storyboard */,
+				5399B5CF248C2CE500AEA7D4 /* PastOrderViewController.swift */,
+				537182BA2485C02E00E8D84D /* PlaceOrderViewController.swift */,
+				537182AE2485B03700E8D84D /* CustomTableViewCell.swift */,
+				537182AC2485AF7B00E8D84D /* MealPlansViewController.swift */,
+				537182AA2485A92400E8D84D /* SignupViewController.swift */,
+				53748A612485A43F0028FBCF /* LoginViewController.swift */,
+				53748A5524859FB90028FBCF /* Assets.xcassets */,
+				53748A5724859FB90028FBCF /* LaunchScreen.storyboard */,
+				53748A5A24859FB90028FBCF /* Info.plist */,
+				53748A5224859FB70028FBCF /* Livetoeat.xcdatamodeld */,
+				537182B82485BBC900E8D84D /* Mealplandatas.json */,
+				53C6896E248B32AC00439844 /* MapsViewController.swift */,
+				5399B5D3248C341900AEA7D4 /* OrderHisPojo.swift */,
+			);
+			path = Livetoeat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53748A4724859FB70028FBCF /* Livetoeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53748A5D24859FB90028FBCF /* Build configuration list for PBXNativeTarget "Livetoeat" */;
+			buildPhases = (
+				53748A4424859FB70028FBCF /* Sources */,
+				53748A4524859FB70028FBCF /* Frameworks */,
+				53748A4624859FB70028FBCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Livetoeat;
+			productName = Livetoeat;
+			productReference = 53748A4824859FB70028FBCF /* Livetoeat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53748A4024859FB70028FBCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = KavinPrabu;
+				TargetAttributes = {
+					53748A4724859FB70028FBCF = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 53748A4324859FB70028FBCF /* Build configuration list for PBXProject "Livetoeat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53748A3F24859FB70028FBCF;
+			productRefGroup = 53748A4924859FB70028FBCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53748A4724859FB70028FBCF /* Livetoeat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53748A4624859FB70028FBCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53748A5924859FB90028FBCF /* LaunchScreen.storyboard in Resources */,
+				53748A5624859FB90028FBCF /* Assets.xcassets in Resources */,
+				53748A5124859FB70028FBCF /* Main.storyboard in Resources */,
+				537182B92485BBC900E8D84D /* Mealplandatas.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53748A4424859FB70028FBCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537182AF2485B03700E8D84D /* CustomTableViewCell.swift in Sources */,
+				537182B62485B38700E8D84D /* MealPlanmodel.swift in Sources */,
+				537182A92485A63600E8D84D /* Customerdetails+CoreDataProperties.swift in Sources */,
+				537182AB2485A92400E8D84D /* SignupViewController.swift in Sources */,
+				53748A622485A43F0028FBCF /* LoginViewController.swift in Sources */,
+				5399B5D0248C2CE500AEA7D4 /* PastOrderViewController.swift in Sources */,
+				53748A4E24859FB70028FBCF /* ViewController.swift in Sources */,
+				53C6896C248B2DD800439844 /* OrderHistory+CoreDataClass.swift in Sources */,
+				537182AD2485AF7B00E8D84D /* MealPlansViewController.swift in Sources */,
+				537182A82485A63600E8D84D /* Customerdetails+CoreDataClass.swift in Sources */,
+				53C6896F248B32AC00439844 /* MapsViewController.swift in Sources */,
+				537182BB2485C02E00E8D84D /* PlaceOrderViewController.swift in Sources */,
+				53748A4C24859FB70028FBCF /* AppDelegate.swift in Sources */,
+				5399B5D4248C341900AEA7D4 /* OrderHisPojo.swift in Sources */,
+				53748A5424859FB70028FBCF /* Livetoeat.xcdatamodeld in Sources */,
+				5399B5D2248C2E4800AEA7D4 /* CustomOrerTableViewCell.swift in Sources */,
+				53C6896D248B2DD800439844 /* OrderHistory+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53748A4F24859FB70028FBCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53748A5024859FB70028FBCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53748A5724859FB90028FBCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53748A5824859FB90028FBCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53748A5B24859FB90028FBCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53748A5C24859FB90028FBCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53748A5E24859FB90028FBCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Livetoeat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cavin.Livetoeat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53748A5F24859FB90028FBCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Livetoeat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cavin.Livetoeat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53748A4324859FB70028FBCF /* Build configuration list for PBXProject "Livetoeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53748A5B24859FB90028FBCF /* Debug */,
+				53748A5C24859FB90028FBCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53748A5D24859FB90028FBCF /* Build configuration list for PBXNativeTarget "Livetoeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53748A5E24859FB90028FBCF /* Debug */,
+				53748A5F24859FB90028FBCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		53748A5224859FB70028FBCF /* Livetoeat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				53748A5324859FB70028FBCF /* Livetoeat.xcdatamodel */,
+			);
+			currentVersion = 53748A5324859FB70028FBCF /* Livetoeat.xcdatamodel */;
+			path = Livetoeat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 53748A4024859FB70028FBCF /* Project object */;
+}

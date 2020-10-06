@@ -1,0 +1,39 @@
+[
+    {
+        "name":"Bombay Chicken",
+        "descp":"This is very sweet",
+        "price":15.0,
+        "calorie":100.0,
+        "image":"bombaychicken",
+    },
+    {
+        "name":"Coconut Shrimp",
+        "descp":"This is very hot ",
+        "price":25.0,
+        "calorie":150,
+        "image":"coconutshrimp",
+    },
+    {
+        "name":"Beef Meal",
+        "descp":"This is very spicy",
+        "price":35.0,
+        "calorie":200,
+        "image":"mealbeef",
+    },
+    {
+        "name":"Sun Tomato",
+        "descp":"This inlcudes turkey leg",
+        "price":45.0,
+        "calorie":250,
+        "image":"suntomato",
+    },
+    {
+        "name":"Chicken Teriyaki",
+        "descp":"This includes one leg for family pack",
+        "price":55.0,
+        "calorie":300,
+        "image":"teriyakichicken",
+    }
+    
+]
+ 
